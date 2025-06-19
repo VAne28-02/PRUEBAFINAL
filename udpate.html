@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Cálculo - Calculadora CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Editar Cálculo</h1>
+        <form id="edit-form">
+            <div class="form-group">
+                <label for="expression">Expresión:</label>
+                <input type="text" id="expression" required>
+            </div>
+            <div class="form-group">
+                <label for="result">Resultado:</label>
+                <input type="text" id="result" required>
+            </div>
+            <div class="form-actions">
+                <button type="submit" class="save-btn">Guardar Cambios</button>
+                <a href="read.html" class="cancel-btn">Cancelar</a>
+            </div>
+        </form>
+    </div>
+    <script src="update.js"></script>
+</body>
+</html>
