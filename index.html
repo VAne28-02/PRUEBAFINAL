@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display">
+                <div class="display-previous" id="previous-operand"></div>
+                <div class="display-current" id="current-operand">0</div>
+            </div>
+            <div class="buttons-grid">
+                <button class="clear-btn span-2" id="clear">AC</button>
+                <button class="delete-btn" id="delete">DEL</button>
+                <button class="operation-btn" id="divide">÷</button>
+                <button id="number-7">7</button>
+                <button id="number-8">8</button>
+                <button id="number-9">9</button>
+                <button class="operation-btn" id="multiply">×</button>
+                <button id="number-4">4</button>
+                <button id="number-5">5</button>
+                <button id="number-6">6</button>
+                <button class="operation-btn" id="subtract">-</button>
+                <button id="number-1">1</button>
+                <button id="number-2">2</button>
+                <button id="number-3">3</button>
+                <button class="operation-btn" id="add">+</button>
+                <button id="number-0" class="span-2">0</button>
+                <button id="decimal">.</button>
+                <button class="equals-btn" id="equals">=</button>
+                <button class="save-btn span-2" id="save">GUARDAR</button>
+                <a href="read.html" class="history-btn span-2">VER HISTORIAL</a>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
